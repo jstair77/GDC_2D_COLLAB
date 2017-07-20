@@ -8,7 +8,7 @@ public class TestKill : MonoBehaviour {
 	private bool hasTouched;
 
 	void Start(){
-		levelManager = GameObject.Find ("LevelManager");
+		levelManager = GameObject.Find ("LevelManager"); //fix
 		hasTouched = false;
 	}
 

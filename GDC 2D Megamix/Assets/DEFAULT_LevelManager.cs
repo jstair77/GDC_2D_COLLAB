@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class DEFAULT_LevelManager : MonoBehaviour {
 
 	public int lives;
-	private int currentLives;
+	public int currentLives;
 	private int currentScene = 0;
 
 	public float respawnDelay;
@@ -33,7 +33,7 @@ public class DEFAULT_LevelManager : MonoBehaviour {
 
 	public void endLevel(){
 		currentScene++;
-		if (currentScene < scenes.Count - 1) {
+		if (currentScene < scenes.Count) {
 			StartCoroutine (loadDelay (endDelay, scenes [currentScene]));
 		}
 	}
@@ -43,7 +43,11 @@ public class DEFAULT_LevelManager : MonoBehaviour {
 		yield return new WaitForSeconds (delay);
 		SceneManager.LoadScene(scene);
 		if (currentScene == 0 || currentScene == scenes.Count - 1) {
-			Destroy (this.gameObject);
+			yield return new WaitForSeconds (5);
+			GameObject[] currentManagers = GameObject.FindGameObjectsWithTag ("Level Manager");
+			currentManagers [1].GetComponent<DEFAULT_LevelManager>().currentLives =
+				currentManagers [0].GetComponent<DEFAULT_LevelManager>().currentLives;
+			Destroy (currentManagers[0]);
 		}
 	}
 }
