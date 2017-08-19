@@ -14,12 +14,20 @@ public class STAIR_Microchip : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		if (STAIR_GlobalValues.getGlobals(chipValue) == 1) {
+			Destroy (this.gameObject);
+		}
 		anim = GetComponent<Animator> ();
 		player = GameObject.FindGameObjectWithTag ("Player");
 	}
 
+	void Awake(){
+
+	}
+
 	void OnTriggerEnter2D (Collider2D other){
 		if (other.CompareTag ("Player") && !collected) {
+			STAIR_GlobalValues.globals [chipValue].value = 1;
 			anim.SetInteger ("ChipValue", chipValue);
 			anim.SetTrigger ("Flip");
 			player.GetComponent<STAIR_Chip> ().activeChips.addChip (chipValue);
