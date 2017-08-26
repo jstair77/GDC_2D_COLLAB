@@ -32,8 +32,8 @@ public class STAIR_Girder : MonoBehaviour {
 		nextPosition = positionList [0];
 		state = 0;
 		canStartCoroutine = true;
-		leftLR.SetPosition (0, leftPulley.transform.position + (Vector3) pulleyLineOffset);
-		rightLR.SetPosition (0, rightPulley.transform.position + new Vector3 (-pulleyLineOffset.x, pulleyLineOffset.y, 0f));
+		leftLR.SetPosition (0, new Vector2(transform.position.x - girderLineOffset.x, leftPulley.transform.position.y));
+		rightLR.SetPosition (0, new Vector2(transform.position.x + girderLineOffset.x, rightPulley.transform.position.y));
 		previous = transform.position;
 		SpriteRenderer leftSR = leftPulley.GetComponent<SpriteRenderer> ();
 		leftLR.sortingLayerName = leftSR.sortingLayerName;
