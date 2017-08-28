@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 421}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 3585
+  controlID: 6707
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 3586
+  controlID: 6708
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,13 +294,13 @@ MonoBehaviour:
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -555
-    m_HBaseRangeMax: 555
+    m_HBaseRangeMin: -317.33334
+    m_HBaseRangeMax: 317.33334
     m_VBaseRangeMin: -178.5
     m_VBaseRangeMax: 178.5
     m_HAllowExceedBaseRangeMin: 1
@@ -308,7 +308,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
+    m_HSlider: 0
     m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -321,18 +321,18 @@ MonoBehaviour:
       y: 17
       width: 1110
       height: 357
-    m_Scale: {x: 1.0589912, y: 1.0589912}
-    m_Translation: {x: 537.06665, y: 188.94144}
+    m_Scale: {x: 1.1073909, y: 1.1073909}
+    m_Translation: {x: 555, y: 178.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -507.14932
-      y: -178.41644
-      width: 1048.1674
-      height: 337.11328
+      x: -501.17804
+      y: -161.1897
+      width: 1002.3561
+      height: 322.3794
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
@@ -373,9 +373,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 57.225285, y: 7.3414197, z: -14}
+    m_Target: {x: 104.568085, y: 11.469511, z: -14}
     speed: 2
-    m_Value: {x: 57.225285, y: 7.3414197, z: -14}
+    m_Value: {x: 104.568085, y: 11.469511, z: -14}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -402,9 +402,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 50.63166
+    m_Target: 62.758503
     speed: 2
-    m_Value: 50.63166
+    m_Value: 62.758503
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -547,19 +547,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/STAIR/Scenes
+    - Assets/STAIR/Art/Static/Background
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/STAIR/Scenes
+  - Assets/STAIR/Art/Static/Background
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jacob\Documents\GDC\GDC_2D_COLLAB\GDC 2D Megamix
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 16290000
-    m_LastClickedID: 10518
-    m_ExpandedIDs: 00000000ce240000fa24000088250000b4250000ec25000000ca9a3bffffff7f
+    m_SelectedIDs: fc240000
+    m_LastClickedID: 9468
+    m_ExpandedIDs: 00000000ce240000fa2400008a250000b6250000ee250000f025000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -587,7 +587,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce240000fa24000088250000b4250000ec25000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000ce240000fa2400008a250000b6250000ee250000f025000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -614,7 +614,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 9e24000002260000e427000000000000fc2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -696,9 +696,9 @@ MonoBehaviour:
     height: 927
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5e490000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 80f8fdff66fafdff50fbfdfffcfcfdffa200feffdaf2ffffe4fbffff0000000068290000e42900005e2a0000
+    m_ExpandedIDs: 12e0ffffc4e1ffff62e3fffffaeaffffd6eeffffd0efffff00f3ffffe4fbffff00000000922b0000f02d00001a34000066340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -717,7 +717,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
-  - Garbage Room
+  - Window Hallway
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting

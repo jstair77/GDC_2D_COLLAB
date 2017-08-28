@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/STAIR/Scenes/Garbage Room.unity
+- path: Assets/STAIR/Scenes/Window Hallway.unity
   isLoaded: 1
   isActive: 1
