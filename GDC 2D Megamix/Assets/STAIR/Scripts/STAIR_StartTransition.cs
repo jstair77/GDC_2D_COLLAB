@@ -31,6 +31,11 @@ public class STAIR_StartTransition : MonoBehaviour {
 			player.transform.position = startPosition;
 			fade.color = new Color (0f, 0f, 0f, 0f);
 		}
+
+		//delete this after demo
+		if (doorValue == player.GetComponent<STAIR_Chip> ().getDoorValue () && doorValue != -1){
+			GameObject.Find ("Main Camera").GetComponent<DEMO> ().text.SetActive (false);
+		}
 	}
 
 	// Update is called once per frame

@@ -51,6 +51,7 @@ public class STAIR_Chip : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
+		movementValues.canStandUp = animationValues.canStandUp;
 		movementValues.checkGround ();
 		movementValues.checkJump ();
 		if (movementValues.jumpNext) {
